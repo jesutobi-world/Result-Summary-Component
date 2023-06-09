@@ -5,16 +5,29 @@
     box-sizing: border-box;
     font-family: 'Hanken Grotesk', sans-serif;
 }
-main{
-    height: 100vh;
+body{
     width: 100vw;
+    height: auto;
+    border: 2px solid red;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+    border: 2px solid red;
 }
 #score-section{
-    padding: 15px 40px;
+    padding: 15px 30px;
     background: hsl(241, 81%, 54%);
+    width: 100%;
     border-radius: 0 0 20px 20px;
     height: 40%;
     display: flex;
+    gap: 0.8em;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -52,11 +65,11 @@ main{
     color: hsl(241, 100%, 89%);
     text-align: center;
     font-size: 0.9rem;
-    max-width: 230px;
+    max-width: 250px;
 }
 
-
 #summary-section{
+    width: 100%;
     height: 60%;
     display: flex;
     flex-direction: column;
@@ -64,6 +77,8 @@ main{
     gap: 0.8em;
     padding: 0.8em;
 }
+
+
 #summary-text{
     color: hsl(224, 30%, 27%);
     font-size: 1.2rem;
@@ -71,10 +86,10 @@ main{
 #list{
     display: flex;
     flex-direction: column;
-    gap: 1.2em;
+    gap: 1em;
 }
 .box{
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,8 +131,8 @@ main{
 
 button{
     padding: 1em;
-    height: 70px;
-    border-radius: 25px;
+    height: 60px;
+    border-radius: 35px;
     outline: none;
     border: none;
     background-color: hsl(224, 30%, 27%);
@@ -145,6 +160,7 @@ button a{
     main{
         height: 65%;
         display: flex;
+        flex-direction: row;
         width: 80%;
         min-width: 600px;
         border-radius: 20px;
@@ -164,7 +180,7 @@ button a{
         height: 6em;
     }
     #circle p span{
-        font-size: 2.2rem;}
+        font-size: 2.2rem;
     }
     #circle p{
         font-size: 0.7rem;
@@ -179,8 +195,6 @@ button a{
         height: 100%;
         width: 50%;
         border-radius: 0 20px 20px 0;
-        /* border: 2px solid red */
-        
     }
     #list{
         gap: 0.7em;
@@ -190,7 +204,8 @@ button a{
     }
     button{
         height: 40px;
-    }
+    } 
+}
 @media (min-width: 770px) {
     body{
         display: flex;
@@ -222,9 +237,7 @@ button a{
         height: 100%;
         width: 50%;
         border-radius: 0 20px 20px 0;
-        /* border: 2px solid red */
-        
     }
 
 }
-
+ 
