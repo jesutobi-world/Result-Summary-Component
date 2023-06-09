@@ -144,10 +144,10 @@ button a{
         width: 100vw;
     }
     main{
-        min-height: 70vw;
+        height: 
+        min-height: 60vw;
         display: flex;
         width: 40vw;
-        height: 55vh;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
     }
@@ -176,6 +176,7 @@ button a{
         display: flex;
         width: 40vw;
         height: 55vh;
+        min-width: 70vw;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
       
