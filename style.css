@@ -186,7 +186,7 @@ button a{
     }
     main{
         display: flex;
-        width: 50vw;
+        width: 45vw;
         height: 55vh;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
