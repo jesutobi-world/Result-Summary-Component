@@ -83,7 +83,7 @@ main{
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
-    padding: 0.7em;
+    padding: 1em;
 }
 .left{
     display: flex;
