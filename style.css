@@ -145,14 +145,15 @@ button a{
     main{
         height: 65%;
         display: flex;
-        width: 70vw;
+        width: 80%;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
     }
     #score-section{
         height: 100%;
         width: 50%;
-        border-radius: 20px
+        border-radius: 20px;
+        padding: 10px 20px;
     }
     #circle{
         width: 6em;
