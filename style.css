@@ -146,12 +146,14 @@ button a{
         height: 65%;
         display: flex;
         width: 80%;
+        min-width: 600px;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
     }
     #score-section{
         height: 100%;
         width: 50%;
+      
         border-radius: 20px;
         padding: 10px 20px;
     }
@@ -195,8 +197,8 @@ button a{
       
     }
    #circle{
-        width: 6em;
-        height: 6em;
+        width: 6rem;
+        height: 6rem;
     }
     #score-section{
         height: 100%;
@@ -212,3 +214,4 @@ button a{
     }
 
 }
+
