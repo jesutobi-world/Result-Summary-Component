@@ -162,11 +162,14 @@ button a{
         /* border: 2px solid red */
         
     }
+    #list{
+        gap: 0.7em;
+    }
     .box{
-        height: 50px;
+        height: 40px;
     }
     button{
-        height: 50px;
+        height: 40px;
     }
 }
 @media (min-width: 770px) {
