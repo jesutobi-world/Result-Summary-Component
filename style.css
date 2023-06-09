@@ -188,7 +188,7 @@ button a{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 45vw;
+        width: 42vw;
         height: 65vh;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
