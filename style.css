@@ -55,9 +55,6 @@ main{
     font-size: 1rem;
     max-width: 230px;
 }
-#summary-section{
-    height: 50%;
-}
 
 
 #summary-section{
@@ -66,7 +63,7 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     gap: 0.8em;
-    padding: 1.15em;
+    padding: 0.8em;
 }
 #summary-text{
     color: hsl(224, 30%, 27%);
