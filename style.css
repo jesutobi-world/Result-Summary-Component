@@ -186,8 +186,10 @@ button a{
     }
     main{
         display: flex;
+        justify-content: center;
+        align-items: center;
         width: 45vw;
-        height: 55vh;
+        height: 65vh;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
       
