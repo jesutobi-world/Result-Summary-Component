@@ -78,7 +78,7 @@ main{
     gap: 0.6em;
 }
 .box{
-
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,7 +119,8 @@ main{
 }
 
 button{
-    padding: 0.7em;
+    padding: 1em;
+    height: 40px;
     border-radius: 25px;
     outline: none;
     border: none;
