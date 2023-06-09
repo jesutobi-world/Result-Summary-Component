@@ -135,8 +135,36 @@ button a{
     font-size: 0.8rem;
     text-align: center;
 }
-
-@media (min-width: 700px) {
+@media (min-width:600px and max-width: 769px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    main{
+        min-height: 70vw;
+        display: flex;
+        width: 40vw;
+        height: 55vh;
+        border-radius: 20px;
+        box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
+    }
+    #score-section{
+        height: 100%;
+        width: 50%;
+        border-radius: 20px
+    }
+    #summary-section{
+        height: 100%;
+        width: 50%;
+        border-radius: 0 20px 20px 0;
+        /* border: 2px solid red */
+        
+    }
+}
+@media (min-width: 770px) {
     body{
         display: flex;
         align-items: center;
@@ -147,7 +175,6 @@ button a{
     main{
         display: flex;
         width: 40vw;
-        min-height: 70vw
         height: 55vh;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
