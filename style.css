@@ -146,7 +146,7 @@ button a{
     main{
         height: 50%;
         display: flex;
-        width: 60vw;
+        width: 70vw;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
     }
@@ -186,7 +186,7 @@ button a{
     }
     main{
         display: flex;
-        width: 40vw;
+        width: 50vw;
         height: 55vh;
         border-radius: 20px;
         box-shadow: 15px 15px 10px hsl(222, 100%, 97%);
